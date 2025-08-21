@@ -22,4 +22,5 @@ def infix_to_postfix(expression):
     return output
 
 s = "a+b*(c^d-e)^(f+g*h)-i"
-print(infix_to_postfix(s))
+print('Infix Notation:', s)
+print('Postfix Notation:', infix_to_postfix(s))
