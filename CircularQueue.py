@@ -36,8 +36,8 @@ class MyCircularQueue:
         return self.size == self.k
 
 
-k = int(input())   # queue size
-q = int(input())   # number of operations
+k = int(input())   
+q = int(input())   
 
 cq = MyCircularQueue(k)
 
